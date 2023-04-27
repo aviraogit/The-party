@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+body{
+    overflow-x: hidden;
+
+}
+
+.container{
+    /* width: 1300px; */
+    height: 100vh;
+    /* margin-left: 100px; */
+}
+
+.navbar{
+    height: 30px;
+    background-color: rgb(75, 187, 231);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.navbar ol{
+    display: flex;
+    width: 200px;
+    font-weight: 100;
+    justify-content: space-between;
+    font-size: smaller;
+    list-style: none;
+}
+
+.navbar span{
+    display: flex;
+    margin: 20px;
+    /* width: 200px; */
+    font-weight: 100;
+    align-items: center;
+    /* justify-content: space-between; */
+    font-size: smaller;
+    list-style: none;
+}
+
+.navbar button{
+    display: flex;
+    border: none;
+    width: 120px;
+    height: 25px;
+    font-weight: 100;
+    background-color: yellow;
+    /* justify-content: space-between; */
+    font-size: smaller;
+    align-items: center;
+    list-style: none;
+    padding: 5px;
+    margin: 10px;
+}
+.navbar span p{
+    font-size: smaller;
+    list-style: none;
+}
+.main-container{
+    height: 100vh;
+    /* background-color: antiquewhite; */
+    display: flex;
+}
+
+.text-section{
+    width: 400px;
+    height: 700px;
+    margin-left: 100px;
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.get-updates{
+    width: 150px;
+    margin-top: 60px;
+}
+#logo-img{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    
+}
+/* .host { */
+    /* background-color: aqua; */
+    /* height: 500px; */
+/* } */
+.host h1{
+    /* width: 200px; */
+    height: 100px;
+    font-weight: 800;
+    font-size: 50px;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.get-started{
+    width: 200px;
+    display: flex;
+    font-weight: 100;
+    font-size: smaller;
+    justify-content: space-between;
+}
+.get-started button{
+    width: 250px;
+    height: 30px;
+    /* margin-bottom: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 100;
+    font-size: smaller;
+    background-color: yellow;
+    border: none;
+    /* justify-content: space-between; */
+}
+
+.get-started button{
+    font-weight: 700;
+}
+
+.get-started p{
+        font-size: smaller;
+}
+
+.get-started a{
+    width: 200px;
+    color: black;
+    height: 30px;
+    /* margin-bottom: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 100;
+    font-size: smaller;
+    /* justify-content: space-between; */
+}
+.get-updates h1{
+    width: 200px;
+
+}
+.updates{
+    
+        width: 250px;
+        height: 30px;
+        /* margin-bottom: 10px; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 300;
+        /* font-size: smaller; */
+        /* justify-content: space-between; */
+    
+}
+
+
+
+.main-img{
+    width: 700px;
+    height: 600px;
+    position: relative;
+}
+.main-img img{
+
+    /* background-image: url(./daqweiob.png); */
+    width: 700px;
+    height: 600px;
+    margin-left: 100px;
+}
+.blur{
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.46);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(9px);
+-webkit-backdrop-filter: blur(9px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    width: 200px;
+    height: 200px;
+    /* background-color: white; */
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background: ; */
+    /* margin-bottom: -300px; */
+}
+.small-img {
+    width: 40px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    
+    /* justify-content: center;} */}
+
+.small-img img{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    background-color: blue;
+    margin-left: -0px;
+    flex-direction: row;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+
+.box{
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.46);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(9px);
+-webkit-backdrop-filter: blur(9px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+    position: absolute;
+    top: 70px;
+    left: 500px;
+    width: 250px;
+    height: 100px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.box span{
+    
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 10px; */
+    
+}
+#only{
+    padding-left: 5px;
+    width: 60px;
+    background-color: yellow;
+    border-radius: 10px;
+    
+    /* width: 130px; */
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* padding: 10px; */
+    
+}
+
+.downbar{
+    width: 600px;
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.downbar span{
+    width: 250px;
+    height: 160px;
+    padding: 40px;
+    border-top: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+
+
